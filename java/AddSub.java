@@ -23,3 +23,12 @@ b = y;
 System.out.println("Division = " + (a / b));
 }
 }
+class MathOperations {
+public static void main(String[] args) {
+MulDiv obj = new MulDiv();
+obj.add(20, 10);
+obj.sub(20, 10);
+obj.mul(20, 10);
+obj.div(20, 10);
+}
+}
